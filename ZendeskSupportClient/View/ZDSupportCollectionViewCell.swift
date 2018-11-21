@@ -8,6 +8,9 @@
 import Foundation
 import UIKit
 
+/**
+ ZDSupportCollectionViewCell is the view of ticket
+ */
 class ZDSupportCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var subjectLabel: UILabel!

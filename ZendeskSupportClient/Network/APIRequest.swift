@@ -23,13 +23,6 @@ extension APIRequest: Request {
     public var parameters: RequestParams {
         switch self {
         case .tickets(_):
-//            let username = "acooke+techtest@zendesk.com"
-//            let password = "mobile"
-//            let loginString = String(format: "%@:%@", username, password)
-//            let loginData = loginString.data(using: String.Encoding.utf8)!
-//            let base64LoginString = loginData.base64EncodedString()
-//            request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
-
             return.body([:])
         }
     }

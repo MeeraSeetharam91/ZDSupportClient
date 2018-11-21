@@ -6,6 +6,9 @@
 //
 
 import Foundation
+/**
+ Ticket is the data model for each ticket in ticket listing screen.
+ */
 
 class Ticket {
     

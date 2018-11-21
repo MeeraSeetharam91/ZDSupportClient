@@ -7,6 +7,9 @@
 //
 
 import Foundation
+/**
+ ZDSupporWorker contains api call to fetch ticket list
+ */
 
 class ZDSupporWorker: Worker {
     

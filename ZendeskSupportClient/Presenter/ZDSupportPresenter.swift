@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 /**
- ZDSupportPresenter is used to congiure Login screen.
+ ZDSupportPresenter is used to configure Ticket listing screen.
  */
 
 class ZDSupportPresenter: NSObject {
@@ -57,7 +57,3 @@ extension ZDSupportPresenter: UICollectionViewDelegateFlowLayout {
         return size
     }
 }
-//extension ZDSupportPresenter: UICollectionViewDelegate {
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//    }
-//}

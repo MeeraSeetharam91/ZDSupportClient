@@ -8,7 +8,7 @@
 import Foundation
 
 /**
- ZDSupportInteractor contains api call to fetch ticket list 
+ ZDSupportInteractor fetches data from worker and casts it to ticket list 
  */
 class ZDSupportInteractor {
     

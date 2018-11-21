@@ -17,10 +17,6 @@ public protocol Dispatcher {
     func execute(request: Request, completion: @escaping (Any?) -> ()) throws
 }
 
-//final class Singleton{
-//    static let sharedInstance = Singleton()
-//    private init() {}
-//}
 public class NetworkDispatcher: Dispatcher {
     
     private var environment: Environment
@@ -38,7 +34,6 @@ public class NetworkDispatcher: Dispatcher {
             let response = Response.data(data!)
             do {
                 let dict = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers)
-                let jsonResponse = Response.json(dict)
                 completion(dict)
             } catch {
                 completion(response)
@@ -51,8 +46,9 @@ public class NetworkDispatcher: Dispatcher {
         //1. format the endpoint url using host url and path
         let fullUrl = "\(environment.host)/\(request.path)"
         
-        //2. create an api request object with the url
+        //2. create an api request object with the url and Authorization data
         var apiRequest = URLRequest(url: URL(string: fullUrl)!)
+        
         let username = "acooke+techtest@zendesk.com"
         let password = "mobile"
         let loginString = String(format: "%@:%@", username, password)

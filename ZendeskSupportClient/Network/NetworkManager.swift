@@ -36,6 +36,7 @@ public protocol Request {
     var dataType: DataType { get }
 }
 
+//Worker is the outer level of our Network Layer
 protocol Worker {
     associatedtype Output
     

@@ -7,7 +7,7 @@
 
 import Foundation
 
-//Environment is a struct which encapsulate all the information
+//Environment is a struct which encapsulates all the information
 public struct Environment {
     
     //Name of the environment

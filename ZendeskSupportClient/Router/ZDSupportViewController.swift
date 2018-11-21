@@ -14,11 +14,10 @@ class ZDSupportViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initialiseUI()
-        zdSupportPresenter = ZDSupportPresenter(zdSupportViewController: self)
-        zdSupportPresenter.configView()
     }
     
     func initialiseUI() {
-        //
+        zdSupportPresenter = ZDSupportPresenter(zdSupportViewController: self)
+        zdSupportPresenter.configView()
     }
 }
