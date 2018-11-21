@@ -14,6 +14,18 @@
 		14BBF2FB21A43C5700EAE715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BBF2F921A43C5700EAE715 /* LaunchScreen.storyboard */; };
 		14BBF30621A43C5800EAE715 /* ZendeskSupportClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF30521A43C5800EAE715 /* ZendeskSupportClientTests.swift */; };
 		14BBF31121A43C5800EAE715 /* ZendeskSupportClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF31021A43C5800EAE715 /* ZendeskSupportClientUITests.swift */; };
+		14BBF33021A43C7E00EAE715 /* ZDSupportPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF31F21A43C7C00EAE715 /* ZDSupportPresenter.swift */; };
+		14BBF33121A43C7E00EAE715 /* ZDSupportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32121A43C7C00EAE715 /* ZDSupportCollectionViewCell.swift */; };
+		14BBF33221A43C7E00EAE715 /* ZDSupportInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32321A43C7D00EAE715 /* ZDSupportInteractor.swift */; };
+		14BBF33321A43C7E00EAE715 /* ZDSupportCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14BBF32521A43C7D00EAE715 /* ZDSupportCollectionViewCell.xib */; };
+		14BBF33421A43C7E00EAE715 /* ZDSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32721A43C7D00EAE715 /* ZDSupportViewController.swift */; };
+		14BBF33521A43C7E00EAE715 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32921A43C7D00EAE715 /* Environment.swift */; };
+		14BBF33621A43C7E00EAE715 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32A21A43C7D00EAE715 /* NetworkManager.swift */; };
+		14BBF33721A43C7E00EAE715 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32B21A43C7D00EAE715 /* APIRequest.swift */; };
+		14BBF33821A43C7E00EAE715 /* ResponseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32C21A43C7D00EAE715 /* ResponseValidator.swift */; };
+		14BBF33921A43C7E00EAE715 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32D21A43C7D00EAE715 /* NetworkDispatcher.swift */; };
+		14BBF33A21A43C7E00EAE715 /* ZDTicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF32F21A43C7D00EAE715 /* ZDTicketModel.swift */; };
+		14BBF33D21A43E2C00EAE715 /* ZDSupportWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BBF33C21A43E2C00EAE715 /* ZDSupportWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		14BBF30C21A43C5800EAE715 /* ZendeskSupportClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZendeskSupportClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BBF31021A43C5800EAE715 /* ZendeskSupportClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZendeskSupportClientUITests.swift; sourceTree = "<group>"; };
 		14BBF31221A43C5800EAE715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BBF31F21A43C7C00EAE715 /* ZDSupportPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSupportPresenter.swift; sourceTree = "<group>"; };
+		14BBF32121A43C7C00EAE715 /* ZDSupportCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSupportCollectionViewCell.swift; sourceTree = "<group>"; };
+		14BBF32321A43C7D00EAE715 /* ZDSupportInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSupportInteractor.swift; sourceTree = "<group>"; };
+		14BBF32521A43C7D00EAE715 /* ZDSupportCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDSupportCollectionViewCell.xib; sourceTree = "<group>"; };
+		14BBF32721A43C7D00EAE715 /* ZDSupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSupportViewController.swift; sourceTree = "<group>"; };
+		14BBF32921A43C7D00EAE715 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		14BBF32A21A43C7D00EAE715 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		14BBF32B21A43C7D00EAE715 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		14BBF32C21A43C7D00EAE715 /* ResponseValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseValidator.swift; sourceTree = "<group>"; };
+		14BBF32D21A43C7D00EAE715 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		14BBF32F21A43C7D00EAE715 /* ZDTicketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDTicketModel.swift; sourceTree = "<group>"; };
+		14BBF33C21A43E2C00EAE715 /* ZDSupportWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDSupportWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,14 @@
 		14BBF2EF21A43C5400EAE715 /* ZendeskSupportClient */ = {
 			isa = PBXGroup;
 			children = (
+				14BBF32021A43C7C00EAE715 /* View */,
+				14BBF32221A43C7D00EAE715 /* Interactor */,
+				14BBF31E21A43C7C00EAE715 /* Presenter */,
+				14BBF32E21A43C7D00EAE715 /* Entity */,
+				14BBF32621A43C7D00EAE715 /* Router */,
+				14BBF32421A43C7D00EAE715 /* Resource */,
+				14BBF32821A43C7D00EAE715 /* Network */,
+				14BBF33B21A43E1000EAE715 /* Worker */,
 				14BBF2F021A43C5400EAE715 /* AppDelegate.swift */,
 				14BBF2F221A43C5400EAE715 /* ViewController.swift */,
 				14BBF2F421A43C5400EAE715 /* Main.storyboard */,
@@ -123,6 +155,74 @@
 				14BBF31221A43C5800EAE715 /* Info.plist */,
 			);
 			path = ZendeskSupportClientUITests;
+			sourceTree = "<group>";
+		};
+		14BBF31E21A43C7C00EAE715 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF31F21A43C7C00EAE715 /* ZDSupportPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		14BBF32021A43C7C00EAE715 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF32121A43C7C00EAE715 /* ZDSupportCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14BBF32221A43C7D00EAE715 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF32321A43C7D00EAE715 /* ZDSupportInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		14BBF32421A43C7D00EAE715 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF32521A43C7D00EAE715 /* ZDSupportCollectionViewCell.xib */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		14BBF32621A43C7D00EAE715 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF32721A43C7D00EAE715 /* ZDSupportViewController.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		14BBF32821A43C7D00EAE715 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF32921A43C7D00EAE715 /* Environment.swift */,
+				14BBF32A21A43C7D00EAE715 /* NetworkManager.swift */,
+				14BBF32B21A43C7D00EAE715 /* APIRequest.swift */,
+				14BBF32C21A43C7D00EAE715 /* ResponseValidator.swift */,
+				14BBF32D21A43C7D00EAE715 /* NetworkDispatcher.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		14BBF32E21A43C7D00EAE715 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF32F21A43C7D00EAE715 /* ZDTicketModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		14BBF33B21A43E1000EAE715 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				14BBF33C21A43E2C00EAE715 /* ZDSupportWorker.swift */,
+			);
+			path = Worker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +331,7 @@
 			files = (
 				14BBF2FB21A43C5700EAE715 /* LaunchScreen.storyboard in Resources */,
 				14BBF2F821A43C5700EAE715 /* Assets.xcassets in Resources */,
+				14BBF33321A43C7E00EAE715 /* ZDSupportCollectionViewCell.xib in Resources */,
 				14BBF2F621A43C5400EAE715 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +357,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BBF33221A43C7E00EAE715 /* ZDSupportInteractor.swift in Sources */,
+				14BBF33A21A43C7E00EAE715 /* ZDTicketModel.swift in Sources */,
+				14BBF33021A43C7E00EAE715 /* ZDSupportPresenter.swift in Sources */,
 				14BBF2F321A43C5400EAE715 /* ViewController.swift in Sources */,
+				14BBF33921A43C7E00EAE715 /* NetworkDispatcher.swift in Sources */,
+				14BBF33521A43C7E00EAE715 /* Environment.swift in Sources */,
+				14BBF33621A43C7E00EAE715 /* NetworkManager.swift in Sources */,
+				14BBF33821A43C7E00EAE715 /* ResponseValidator.swift in Sources */,
+				14BBF33D21A43E2C00EAE715 /* ZDSupportWorker.swift in Sources */,
+				14BBF33121A43C7E00EAE715 /* ZDSupportCollectionViewCell.swift in Sources */,
+				14BBF33421A43C7E00EAE715 /* ZDSupportViewController.swift in Sources */,
+				14BBF33721A43C7E00EAE715 /* APIRequest.swift in Sources */,
 				14BBF2F121A43C5400EAE715 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
